@@ -232,11 +232,11 @@ export default {
   methods: {
     BadgeType(status){
       status = parseInt(status)
-      if (status >= 2000) {
+      if (status >= 200) {
         return 'success'
       }
 
-      if (status >= 1000 && status < 2000) {
+      if (status >= 100 && status < 200) {
         return 'warning'
       }
 
